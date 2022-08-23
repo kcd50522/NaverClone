@@ -131,6 +131,31 @@ nav {
     font-size: 15px;
 }
 
+.More {
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    padding-left: 6px;
+    padding-right: 80px;
+}
 
+.More img{
+    padding-left: 5px;
+}
 
+.Dust {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 13px;
+}
 
+.NomalDust ul{
+    display: flex;
+    padding-right: 5px;
+    border-right: 1px solid #e6e6e6;
+}
+
+.NomalDust ul li{
+    padding-right: 5px;
+}
