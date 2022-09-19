@@ -99,7 +99,7 @@ fieldset {
     color: #ffffff;
 }
 
-/*header > nav {
+header > nav {
     width: 100;
     height: 45px;
     position: absolute;
@@ -115,37 +115,58 @@ nav {
 } /*흰색선*/
 
 .nav_ul {
-    height: 46px;
+    width: 100%;
+    height: 100%;
     margin-left: 160px;
     display:flex;
     align-items: center;
+    font-size: 15px;
+    font-weight: bold;
 }
 
-.nav_ul ul {
-    display:block;
+.nav_ul ul > li > a > img {
+   width: 44px;
+   margin-right: 10px;
+   position: relative;  /* 해당 요소가 배치되어야 할 곳을 기준으로 상하좌우로 지정한 값 만큼 떨어진다. */
+   top: 5px;
+   left: 4px;
+   transform: scale(1.4);
+}
 
+.nav_ul .nav_ori ul > a > img {
+    position: relative;
+    top: 5px;    /*mail아이콘과 shoppinglive아이콘 두개 사이즈가 다르고 mail은 첫번째 있는 부분이므로 list에서 빼고 앵커이미지로만 하여 따로 지정 */
+}
+
+.more_ {
+    font-size: 13px;
+    color : rgb(83, 81, 81);
+    display: inline;
+    position: relative;
+    top: -0.5px;
 }
 
 .nav_ul ul > li {
     display: inline-block;
     margin-left: 8px;
-    font-size: 15px;
+    
 
 }
 
-.Dust {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    font-size: 13px;
+.nav_ul .nav_ori ul > li:nth-child(-n + 7) > a {
+    color: #03cf5d;
 }
 
-.NomalDust ul{
-    display: flex;
-    padding-right: 5px;
-    border-right: 1px solid #e6e6e6;
+.nav_ul .serch_set li a:link,
+.nav_ul .serch_set li a:visited{
+    font-size: 14px;
+    color : rgb(83, 81, 81);
+    margin-left: 18px;
+    display: inline;
 }
 
-.NomalDust ul li{
-    padding-right: 5px;
+.more2{
+    float: right;
+    position: relative;
+    top: 5px;
 }
