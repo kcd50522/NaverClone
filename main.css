@@ -123,24 +123,14 @@ nav {
 
 .nav_ul ul {
     display:block;
+
 }
 
 .nav_ul ul > li {
     display: inline-block;
     margin-left: 8px;
     font-size: 15px;
-}
 
-.More {
-    display: flex;
-    font-size: 13px;
-    align-items: center;
-    padding-left: 6px;
-    padding-right: 80px;
-}
-
-.More img{
-    padding-left: 5px;
 }
 
 .Dust {
