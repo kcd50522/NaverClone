@@ -1,25 +1,21 @@
 * {
     box-sizing: border-box;
 }
-
+li { list-style: none }
 html,body {
     margin: 0;
     font-family: Dotun, '돋움', "Apple SD Gothic Neo", Helvetica, sans-serif;
 }
-
 a {
     text-decoration: none;  /*기본 밑줄 제거*/
     color: black;
 }
-
 p {
     float: left;
 }
-
 img {
     height: 20px
 }
-
 header {
     margin: auto;
     width: 1160px;
@@ -28,7 +24,6 @@ header {
     align-items: cneter;  /*하위 요소들 수직 가운데정렬 */
     position: relative;
 }
-
 .SmallMenu {
     position:absolute;
     right: 0;
@@ -38,7 +33,6 @@ header {
     margin-left: 5px;
     margin-top: 15px;
 }
-
 .main_logo {   /*메인로고이미지*/
     margin-top: 30px;
     margin-bottom: 30px;
@@ -49,13 +43,10 @@ fieldset {
     border: none;    /*기본 테두리 없애기*/
     
 }
-
 .main {
     display:flex;
     justify-content: center;
 }
-
-
 .serch {
     width: 520px;
     height: 50px;
@@ -63,12 +54,10 @@ fieldset {
     display: flex;
     align-items: center;
 }
-
 .serch_div {
     display: flex;
     align-items: center;
 }
-
 .serch_msg{
     position: absolute !important;
     height: 1px;
@@ -87,7 +76,6 @@ fieldset {
     outline: none;
     font-size: 18px;
 }
-
 .serch button{
     flex: 1;
     height: 50px;
@@ -98,7 +86,6 @@ fieldset {
     background: #03cf5d;
     color: #ffffff;
 }
-
 header > nav {
     width: 100;
     height: 45px;
@@ -113,7 +100,6 @@ nav {
     border-top: 1px solid #f1f3f6;
     border-bottom: 1px solid #d1d8e4;
 } /*흰색선*/
-
 .nav_ul {
     width: 100%;
     height: 100%;
@@ -123,7 +109,6 @@ nav {
     font-size: 15px;
     font-weight: bold;
 }
-
 .nav_ul ul > li > a > img {
    width: 44px;
    margin-right: 10px;
@@ -132,12 +117,10 @@ nav {
    left: 4px;
    transform: scale(1.4);
 }
-
 .nav_ul .nav_ori ul > a > img {
     position: relative;
     top: 5px;    /*mail아이콘과 shoppinglive아이콘 두개 사이즈가 다르고 mail은 첫번째 있는 부분이므로 list에서 빼고 앵커이미지로만 하여 따로 지정 */
 }
-
 .more_ {
     font-size: 13px;
     color : rgb(83, 81, 81);
@@ -145,18 +128,15 @@ nav {
     position: relative;
     top: -0.5px;
 }
-
 .nav_ul ul > li {
     display: inline-block;
     margin-left: 8px;
     
 
 }
-
 .nav_ul .nav_ori ul > li:nth-child(-n + 7) > a {
     color: #03cf5d;
 }
-
 .nav_ul .serch_set li a:link,
 .nav_ul .serch_set li a:visited{
     font-size: 14px;
@@ -164,9 +144,111 @@ nav {
     margin-left: 18px;
     display: inline;
 }
-
 .more2{
     float: right;
     position: relative;
     top: 5px;
+}
+
+/*main*/
+
+main {
+    background: #f2f4f7;
+    min-height: 700px;
+}
+
+/*footer*/
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    width: 1080px;
+    height: 310px;
+    margin: auto;
+    padding: 0 10px 0 30px;
+    display: flex;
+    flex-direction: column;   /*수평정렬*/
+    font-size: 13px;
+}
+
+.footer_list {
+    flex: 3;
+    display: flex;
+    justify-content: space-between;  /*각 각 왼쪽 오른쪽에 배치*/
+    align-items: center;
+    border-bottom: 1px solid #f1f3f6;
+}
+.footer_list a{
+    font-weight: bold;
+    color: black;
+}
+.footer_list1 {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f1f3f6;
+}  
+.fot_list1 {
+    flex: 4;
+    line-height: 2em; /* 줄간격 */
+}
+.list_row {
+    display: flex;
+}
+.list_row span{
+    flex: 1;
+}
+.list_row ul {
+    flex: 6;
+}
+.text_bold {
+    font-size: 13px;
+    font-weight: bold;
+}
+.list_row ul > li {
+    display: inline-block;  /* 수평정렬 하기 위해 */
+    margin-left: 8px;
+}
+.fot_list2 {
+    flex: 1.2;
+}
+.fot_list2 .list_col {
+    line-height: 20px;  /* 위아래 줄 간격 */
+    align-items: center;
+    display:inline-block;
+    margin-left: 10px;
+}
+.fot_list2 .ac_img {
+    width: 60px;
+    height: 60px;
+}
+.bottom {
+    flex: 3;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.bottom ul > li:last-child { /* 마지막 li요소 글씨를 굵게 설정*/
+    font-weight: bold;
+}
+
+.bottom{
+    font-size:12px;
+    line-height: 16px;
+    color:#777;
+    padding-bottom:80px;
+    padding-top:20px;
+}
+.bottom ul > li {
+    display: inline-block;  /* 수평정렬 하기 위해 */
+    margin-left: 8px;
+}
+.bottom a:hover{
+    text-decoration:underline;
+}
+.bottom a{
+    color:gray;
 }
