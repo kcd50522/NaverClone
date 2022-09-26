@@ -158,13 +158,17 @@ main {
 }
 
 /*footer*/
+.f1 {
+    background-color: #fafbfc;
+}
 
-footer {
-    background-color: #fff;
-    width: 100%;
+.footer_ {
+    margin-left: 160px;
+    margin-right: 160px;
     display: flex;
     flex-direction: column;  /*밑으로 정렬*/
 }
+
 
 .footerinner span:hover, .footer_down span:hover {
     text-decoration: underline;
@@ -185,11 +189,9 @@ footer {
     display: flex;
     flex-direction: row;
     float: left;
-    margin: auto;
     width: 1150px;
     height: 140px;
-    border-bottom: 1px solid #dae1e6;
-
+    border-bottom: 1px solid #e4e8eb;
 }
 .footer_inner{
     font-size:12px;
@@ -199,7 +201,87 @@ footer {
     width: 350px;
     padding: 24px 0;
 }
+#inner2 {
+    margin-left: 20px;
+}
 .footer_inner > a {
     float: left;
 }
-
+.footer_down{
+    border-bottom: 1px solid #e4e8eb;
+    height: 45px;
+}
+.footer_down1 {   
+    font-size: 12px;
+    font-weight: bold;
+    float:left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer_down2{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right:15px;
+    float:right;
+}
+.partner_box{
+    font-size:13px;
+    line-height: 18px;;
+    padding-top:20px;
+    padding-bottom:30px;
+    border-bottom:  1px solid #dae1e6;
+}
+.partner_box span {
+    display: inline-block;
+    font-weight: bold;
+    width: 60px;
+}
+.partner_box a{
+    color:gray;
+}
+.partner_box a:hover{
+    text-decoration:underline;
+}
+.partner a {
+    margin-right:30px;
+    margin-left:20px;   
+}
+.partner{
+    width:70%;
+    float:left;
+    height: 25px;
+}
+.partner_box img{
+    width: 120px;
+    height: 50px;
+    margin-right:50px;
+    transform: scale(1.1);
+}
+#partner_id {
+    margin-right: 2px;
+}
+.final{
+    font-size:12px;
+    line-height: 16px;
+    color:#777;
+    padding-bottom:80px;
+    padding-top:20px;
+}
+.final a:hover{
+    text-decoration:underline;
+}
+.final a{
+    color:gray;
+}
+.final a:nth-child(5){
+    font-weight: bold;
+}
+.final a:nth-child(n+2){
+    margin-left: 10px;
+}
+.final a:last-child{
+    font-weight: bold;
+    color: black;
+}
