@@ -159,96 +159,47 @@ main {
 
 /*footer*/
 
-ul {
-    margin: 0;
-    padding: 0;
-}
-
 footer {
-    width: 1080px;
-    height: 310px;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;  /*밑으로 정렬*/
+}
+
+.footerinner span:hover, .footer_down span:hover {
+    text-decoration: underline;
+}
+
+.footerinner img{
+    height: 90px;
+    width: 180px;
+    padding: 0 10px;
+    transition: transform 0.5s, opacity 0.5s;
+}
+.footerinner img:hover{
+    opacity:0.7;
+    transform: scale(1.1);
+}
+
+.footerinner {
+    display: flex;
+    flex-direction: row;
+    float: left;
     margin: auto;
-    padding: 0 10px 0 30px;
-    display: flex;
-    flex-direction: column;   /*수평정렬*/
-    font-size: 13px;
-}
+    width: 1150px;
+    height: 140px;
+    border-bottom: 1px solid #dae1e6;
 
-.footer_list {
-    flex: 3;
-    display: flex;
-    justify-content: space-between;  /*각 각 왼쪽 오른쪽에 배치*/
-    align-items: center;
-    border-bottom: 1px solid #f1f3f6;
 }
-.footer_list a{
-    font-weight: bold;
-    color: black;
-}
-.footer_list1 {
-    flex: 2;
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid #f1f3f6;
-}  
-.fot_list1 {
-    flex: 4;
-    line-height: 2em; /* 줄간격 */
-}
-.list_row {
-    display: flex;
-}
-.list_row span{
-    flex: 1;
-}
-.list_row ul {
-    flex: 6;
-}
-.text_bold {
-    font-size: 13px;
-    font-weight: bold;
-}
-.list_row ul > li {
-    display: inline-block;  /* 수평정렬 하기 위해 */
-    margin-left: 8px;
-}
-.fot_list2 {
-    flex: 1.2;
-}
-.fot_list2 .list_col {
-    line-height: 20px;  /* 위아래 줄 간격 */
-    align-items: center;
-    display:inline-block;
-    margin-left: 10px;
-}
-.fot_list2 .ac_img {
-    width: 60px;
-    height: 60px;
-}
-.bottom {
-    flex: 3;
-    padding-top: 20px;
-    font-size: 14px;
-}
-
-.bottom ul > li:last-child { /* 마지막 li요소 글씨를 굵게 설정*/
-    font-weight: bold;
-}
-
-.bottom{
+.footer_inner{
     font-size:12px;
-    line-height: 16px;
-    color:#777;
-    padding-bottom:80px;
-    padding-top:20px;
+    line-height: 150%;
+    float:left;
+    height: 150px;
+    width: 350px;
+    padding: 24px 0;
 }
-.bottom ul > li {
-    display: inline-block;  /* 수평정렬 하기 위해 */
-    margin-left: 8px;
+.footer_inner > a {
+    float: left;
 }
-.bottom a:hover{
-    text-decoration:underline;
-}
-.bottom a{
-    color:gray;
-}
+
