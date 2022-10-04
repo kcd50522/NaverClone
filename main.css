@@ -155,8 +155,27 @@ nav {
 main {
     background: #f2f4f7;
     min-height: 700px;
+
 }
 
+.main_div {
+    width: 1080px;
+    margin: auto;
+    margin-left: 160px;
+    display: grid;
+    gap: 10px; /* 자식요소간의 간격 */
+    display: flex;
+    padding: 20px 33px;
+}
+.left {
+    width: 750px;
+    margin-left: 10px;
+}
+
+.left_adver img {
+    height: 130px;
+    
+}
 /*footer*/
 .f1 {
     background-color: #fafbfc;
