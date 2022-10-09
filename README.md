@@ -1,1 +1,1 @@
-# naver__ = naver clone coding 
+# naver__ : naver clone coding 
