@@ -176,6 +176,15 @@ main {
     height: 130px;
     
 }
+.news_stand_header {
+    margin-top:10px;
+    position: relative;
+    padding: 12px 15px 11px 15px;
+    background-color: #f7f9fa;
+    border: 1px solid #dae1e6;
+    line-height: 24px;
+    font-size:13px;
+}
 /*footer*/
 .f1 {
     background-color: #fafbfc;
