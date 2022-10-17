@@ -1,2 +1,2 @@
 # study
-# naver__ : naver clone coding 
+# naver clone coding 
