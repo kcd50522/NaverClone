@@ -169,7 +169,12 @@ main {
 }
 .left {
     width: 750px;
-    margin-left: 10px;
+    background-color: #fff;
+    width:750px;
+    float:left;
+    padding: 20px 10px;
+    margin: 0;
+    letter-spacing: -.2px;
 }
 
 .left_adver img {
@@ -178,12 +183,23 @@ main {
 }
 .news_stand_header {
     margin-top:10px;
-    position: relative;
     padding: 12px 15px 11px 15px;
     background-color: #f7f9fa;
     border: 1px solid #dae1e6;
     line-height: 24px;
-    font-size:12px;
+    font-size:13px;
+}
+.story{
+    text-align: center;
+    display: inline;
+}
+.story_link{
+    text-align: right;
+    font-size: 13px;
+    float:right;
+}
+.story_link a {
+    margin-left: 5px;
 }
 /*footer*/
 .f1 {
