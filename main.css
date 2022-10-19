@@ -201,6 +201,17 @@ main {
 .story_link a {
     margin-left: 5px;
 }
+.news_stand_content {
+    padding: 22px 0 16px;
+    font-size: 14px;
+    line-height: 18px;
+    font-size: 13px;
+    color : rgb(83, 81, 81);
+}
+.news_inter {
+    float:right;
+    margin-left:15px;
+}
 /*footer*/
 .f1 {
     background-color: #fafbfc;
