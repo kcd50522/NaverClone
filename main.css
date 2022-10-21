@@ -13,7 +13,7 @@ a {
 p {
     float: left;
 }
-img {
+header img , nav img{
     height: 20px
 }
 header {
@@ -205,12 +205,24 @@ main {
     padding: 22px 0 16px;
     font-size: 14px;
     line-height: 18px;
-    font-size: 13px;
+    font-size: 14px;
     color : rgb(83, 81, 81);
 }
 .news_inter {
     float:right;
     margin-left:15px;
+}
+.news_group{
+    position: relative;
+    height: 250px;
+}
+.news_group img{
+    height: 260px;
+    width: 730px;
+    margin:0px;
+    padding:0px;
+    border-collapse:collapse;
+    vertical-align:bottom;    
 }
 /*footer*/
 .f1 {
