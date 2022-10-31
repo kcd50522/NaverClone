@@ -224,7 +224,24 @@ main {
     border-collapse:collapse;
     vertical-align:bottom;    
 }
-
+.thema{
+    margin-top:35px;
+    height: 30px;
+}
+.thema_title{
+    display:block;
+    float:left;
+    margin-left:8px;
+    margin-bottom:15px;
+}
+.thema_sub{
+    display:block;
+    float:right;
+    font-size:12px;
+}
+#na_hel ul > li {
+    width: 750px;
+}
 
 /*footer*/
 .f1 {
