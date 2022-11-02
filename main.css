@@ -155,7 +155,6 @@ nav {
 main {
     background: #f2f4f7;
     min-height: 700px;
-
 }
 
 .main_div {
@@ -165,7 +164,6 @@ main {
     display: grid;
     gap: 10px; /* 자식요소간의 간격 */
     display: flex;
-    padding: 20px 33px;
 }
 .left {
     width: 750px;
