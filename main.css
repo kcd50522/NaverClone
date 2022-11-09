@@ -153,7 +153,6 @@ nav {
 /*main*/
 
 main {
-    background: #f2f4f7;
     min-height: 700px;
 }
 
@@ -296,15 +295,15 @@ main {
     width: 219px;
     margin-right:19px;
 }
+.thema_economy2 a > img:hover {
+    transform: scale(1.05);
+}
 .thema_ul2 img {
     float: left;
     height: 30px;
     width: 25px;
     padding-bottom: 10px;
     padding-right: 5px;
-}
-.thema_economy2 a > img:hover {
-    transform: scale(1.05);
 }
 .thema_ul2 li {
     display: block;
@@ -324,8 +323,74 @@ main {
     margin-top: 6px;
     color: gray;
 }
+.thema_economy3 {
+    margin-top: 20px;
+    height: 700px;
+    border-bottom:  1px solid #dae1e6;
+}
+.thema_ul3 {
+    padding-left: 0;
+}
+.thema_ul3 li {
+    height: 140px;
+    font-size: 13px;
+}
+.thema_economy3 img {
+    height: 120px;
+    width: 195px;
+    float: left;
+    padding-right: 22px;
+}
+.thema_economy4{
+    height: 235px;
+    border-bottom:  1px solid #dae1e6;
+}
+.thema_ul4 {
+    padding-left: 0;
+    height: 170px;
+}
+.thema_economy4 a > img {
+    height: 140px;
+    width: 219px;
+    margin-right:19px;
+}
+.thema_economy4 a > img:hover {
+    transform: scale(1.05);
+}
+.thema_ul4 img {
+    float: left;
+    height: 30px;
+    width: 25px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+.thema_ul4 li {
+    display: block;
+    width: 240px;
+    float: left;
+    font-size: 13px;
+    height: 210px;
+}
+.thema_ul4 li > a {
+    margin-bottom: 10px;
+}
+.thema_ul4 li > a > p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.thema_ul4 li > p {
+    margin-top: 6px;
+    color: gray;
+}
+.thema_seemore {
+    height: 80px;
+    font-size: 13px;
+    color: gray;
+}
+
 /*footer*/
 .f1 {
+    border-top:  1px solid #dae1e6;
     background-color: #fafbfc;
 }
 
