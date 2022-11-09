@@ -266,7 +266,23 @@ main {
     border: none; margin: 0; padding: 0; display: inline; 
     margin-right:-6px;
 }
-
+.thema_economy {
+    height: 840px;
+    border-bottom:  1px solid #dae1e6;
+}
+.thema_ul {
+    padding-left: 0;
+}
+.thema_ul li {
+    height: 140px;
+    font-size: 12px;
+}
+.thema_economy img {
+    height: 120px;
+    width: 195px;
+    float: left;
+    padding-right: 22px;
+}
 /*footer*/
 .f1 {
     background-color: #fafbfc;
