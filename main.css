@@ -284,7 +284,8 @@ main {
     padding-right: 22px;
 }
 .thema_economy2{
-    height: 200px;
+    height: 215px;
+    border-bottom:  1px solid #dae1e6;
 }
 .thema_ul2 {
     padding-left: 0;
@@ -310,6 +311,7 @@ main {
     width: 240px;
     float: left;
     font-size: 13px;
+    height: 210px;
 }
 .thema_ul2 li > a {
     margin-bottom: 10px;
