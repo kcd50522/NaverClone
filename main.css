@@ -275,13 +275,52 @@ main {
 }
 .thema_ul li {
     height: 140px;
-    font-size: 12px;
+    font-size: 13px;
 }
 .thema_economy img {
     height: 120px;
     width: 195px;
     float: left;
     padding-right: 22px;
+}
+.thema_economy2{
+    height: 200px;
+}
+.thema_ul2 {
+    padding-left: 0;
+    height: 170px;
+}
+.thema_economy2 a > img {
+    height: 140px;
+    width: 219px;
+    margin-right:19px;
+}
+.thema_ul2 img {
+    float: left;
+    height: 30px;
+    width: 25px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+.thema_economy2 a > img:hover {
+    transform: scale(1.05);
+}
+.thema_ul2 li {
+    display: block;
+    width: 240px;
+    float: left;
+    font-size: 13px;
+}
+.thema_ul2 li > a {
+    margin-bottom: 10px;
+}
+.thema_ul2 li > a > p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.thema_ul2 li > p {
+    margin-top: 6px;
+    color: gray;
 }
 /*footer*/
 .f1 {
