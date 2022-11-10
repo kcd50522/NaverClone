@@ -387,7 +387,39 @@ main {
     font-size: 13px;
     color: gray;
 }
-
+.login {
+    margin-top: 20px;
+    padding: 10px 15px 0px 15px;
+    background-color: #f7f9fa;
+    border: 1px solid #dae1e6;
+    font-size:12px;
+}
+.login_image {
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+.login_image a > img {
+    width: 300px;
+}
+.list_ul4 {
+    padding-left: 0px;
+    margin-top: 5px;
+}
+.list_ul4 a{
+    margin-left: 10px;
+}
+.list_ul4 li a:link,
+.list_ul4 li a:visited{
+    font-size: 13px;
+    color : rgb(83, 81, 81);
+}
+.list_ul4 a:hover{
+    text-decoration:underline;
+}
+.create {
+    float: right;
+    margin-right: 17px;
+}
 /*footer*/
 .f1 {
     border-top:  1px solid #dae1e6;
