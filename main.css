@@ -527,7 +527,7 @@ main {
     height: 300px;
     width: 350px;
 }
-.group_shopping a > img {
+.shopping_li1 a > img {
     height: 240px;
     width: 167px;
     margin-left: 4px;
@@ -554,6 +554,42 @@ main {
 .shopping_li1 li > p {
     margin-top: 3px;
     font-size: 12px;
+}
+.shopping_li2 {
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 10px;
+    height: 300px;
+    width: 350px;
+}
+.shopping_li2 a > img {
+    height: 109px;
+    width: 107px;
+    margin-left: 4px;
+}
+.shopping_li2 li {
+    width: 107px;
+    float: left;
+    margin-right: 7px;
+}
+.shopping_li2 li > a {
+    margin-bottom: 0;
+}
+.shopping_li2 p {
+    width: 107px;
+    text-align: center;
+}
+.shopping_li2 a > p {
+    margin: 0;
+    font-size: 12px;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+.shopping_li2 li > p {
+    margin-top: 3px;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-bottom: 23px;
 }
 /*footer*/
 .f1 {
