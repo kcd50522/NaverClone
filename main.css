@@ -455,6 +455,63 @@ main {
 #card_li2-1 {
     margin-right: 20px;
 }
+.add{
+    margin: 12px 0px 0px 12px;
+    width: 350px;
+    height: 200px;
+}
+.right_add img{
+    width: 333px;
+    height: 200px;
+    margin-left: 8px;
+    margin-top: 10px;
+    transform: scaleX( 1.05 );
+}
+.shopping{
+    font-weight: bold;
+    margin-top:25px;
+    margin-bottom: 20px;
+}
+.shopping_link1{
+    font-size:14px;
+}
+.shopping_link{
+    float:right;
+    font-size:13px;
+    margin-left:10px;
+    margin-right:10px;
+}
+.group_shop_f{
+    height: 919px;
+}
+.group_shop_f img{
+    transition: transform 0.5s, opacity 0.5s;
+}
+.group_shop_f img:hover{
+    opacity:0.7;
+    transform: scale(1.1);
+}
+.group_shop {
+    padding: 21px 8px 13px 9px;
+    width: 350px;
+    height: 430px;
+    border: 1px solid #dae1e6;
+}
+.group_shopping{
+    padding: 17px 0 28px;
+    position: absolute;
+    
+}
+.group_shop_title{
+    float:right;
+    margin-right:15px;
+}
+.group_event {
+    padding: 20px 17px 0 13px;
+    border-top: 1px solid #dae1e6;
+    font-size: 12px;
+    line-height: 16px;
+}
 /*footer*/
 .f1 {
     border-top:  1px solid #dae1e6;
