@@ -467,13 +467,18 @@ main {
     margin-top: 10px;
     transform: scaleX( 1.05 );
 }
+.shopping img {
+    width: 17px;
+    float: left;
+    margin-right: 3px;
+}
 .shopping{
     font-weight: bold;
     margin-top:25px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .shopping_link1{
-    font-size:14px;
+    font-size:13px;  
 }
 .shopping_link{
     float:right;
@@ -481,36 +486,74 @@ main {
     margin-left:10px;
     margin-right:10px;
 }
-.group_shop_f{
-    height: 919px;
-}
-.group_shop_f img{
-    transition: transform 0.5s, opacity 0.5s;
-}
-.group_shop_f img:hover{
-    opacity:0.7;
-    transform: scale(1.1);
-}
-.group_shop {
-    padding: 21px 8px 13px 9px;
-    width: 350px;
-    height: 430px;
+.group_shop_f {
     border: 1px solid #dae1e6;
 }
-.group_shopping{
-    padding: 17px 0 28px;
-    position: absolute;
-    
+.group_shop_title {
+    height: 25px;
+    margin-top: 25px;
+    margin-left: 10px;
 }
-.group_shop_title{
-    float:right;
-    margin-right:15px;
+.group_shop_title a > img{
+    height: 23px;
+    float: left;
 }
-.group_event {
-    padding: 20px 17px 0 13px;
-    border-top: 1px solid #dae1e6;
+#shop_li2 {
+    margin-right: 10px;
+}
+.group_shop_title i {
+    float: right;
+    border: 1px solid #dae1e6;
+    width: 30px;
+    padding-left: 9px;
+    padding-top: 5px;
+    font-size: 11px;
+    height: 25px;
+    margin-bottom: 15px;
+}
+#shop_p1 {
+    margin: 5px 0 0 147px;
+    font-size: 13px;
+}
+#shop_p2 {
+    font-size: 13px;
+    margin: 5px 0 0 5px;
+    color: gray;
+}
+.shopping_li1 {
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 10px;
+    height: 300px;
+    width: 350px;
+}
+.group_shopping a > img {
+    height: 240px;
+    width: 167px;
+    margin-left: 4px;
+}
+.group_shopping a > img:hover {
+    transform: scale(1.05);
+}
+.shopping_li1 li {
+    width: 170px;
+    float: left;
+}
+.shopping_li1 li > a {
+    margin-bottom: 0;
+}
+.shopping_li1 p {
+    width: 165px;
+    text-align: center;
+}
+.shopping_li1 a > p {
+    margin: 0;
     font-size: 12px;
-    line-height: 16px;
+    margin-top: 7px;
+}
+.shopping_li1 li > p {
+    margin-top: 3px;
+    font-size: 12px;
 }
 /*footer*/
 .f1 {
