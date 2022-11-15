@@ -634,6 +634,76 @@ main {
     font-size: 13px;
     color: gray;
 }
+.more_shop1 {
+    margin-top: 20px;
+    height: 210px;
+}
+.more_shop1_title{
+    float: left;
+    margin-left: 15px;
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+#moreshop_p1 {
+    margin: 5px 0 0 190px;
+    font-size: 13px;
+}
+#moreshop_p2 {
+    font-size: 13px;
+    margin: 5px 0 0 5px;
+    color: gray;
+}
+#more_shop_li2 {
+    float: right;
+    border: 1px solid #dae1e6;
+    width: 30px;
+    padding-left: 9px;
+    padding-top: 5px;
+    font-size: 11px;
+    height: 25px;
+    margin-bottom: 15px;
+}
+.more_shop_title_1 {
+    height: 25px;
+}
+.more_shop_li1 {
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 10px;
+    height: 330px;
+    width: 350px;
+}
+.more_shop_li1 a > img {
+    height: 109px;
+    width: 107px;
+    margin-left: 4px;
+}
+.more_shop_li1 li {
+    width: 107px;
+    float: left;
+    margin-right: 7px;
+}
+.more_shop_li1 li > a {
+    margin-bottom: 0;
+}
+.more_shop_li1 p {
+    width: 107px;
+    text-align: center;
+}
+.more_shop_li1 a > p {
+    margin: 0;
+    font-size: 12px;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+.more_shop_li1 li > p {
+    margin-top: 3px;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-bottom: 23px;
+}
+.more_shop_title_2
 /*footer*/
 .f1 {
     border-top:  1px solid #dae1e6;
