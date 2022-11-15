@@ -403,7 +403,7 @@ main {
     padding-top: 10px;
 }
 .login_image a > img {
-    width: 300px;
+    width: 340px;
 }
 .list_ul4 {
     padding-left: 0px;
@@ -461,7 +461,7 @@ main {
     height: 200px;
 }
 .right_add img{
-    width: 333px;
+    width: 355px;
     height: 200px;
     margin-left: 8px;
     margin-top: 10px;
@@ -611,6 +611,9 @@ main {
     margin-left: 70px;
     font-size: 11px;
     color:rgb(83, 81, 81);
+}
+.shop_bottom2{
+    height: 40px;
 }
 /*footer*/
 .f1 {
