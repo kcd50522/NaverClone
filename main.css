@@ -165,7 +165,7 @@ main {
     display: flex;
 }
 .left {
-    width: 750px;
+    width: 950px;
     background-color: #fff;
     width:750px;
     float:left;
@@ -176,7 +176,7 @@ main {
 
 .left_adver img {
     height: 130px;
-    
+    width: 730px;
 }
 .news_stand_header {
     margin-top:10px;
@@ -389,7 +389,7 @@ main {
 }
 .login {
     margin-top: 20px;
-    height: 130px;
+    height: 140px;
     padding: 10px 15px 7px 15px;
     background-color: #f7f9fa;
     border: 1px solid #dae1e6;
@@ -403,7 +403,7 @@ main {
     padding-top: 10px;
 }
 .login_image a > img {
-    width: 340px;
+    width: 330px;
 }
 .list_ul4 {
     padding-left: 0px;
@@ -455,13 +455,17 @@ main {
 #card_li2-1 {
     margin-right: 20px;
 }
+.right {
+    margin-left: 10px;
+    width: 360px;
+}
 .add{
     margin: 12px 0px 0px 12px;
     width: 350px;
     height: 200px;
 }
 .right_add img{
-    width: 355px;
+    width: 343px;
     height: 200px;
     margin-left: 8px;
     margin-top: 10px;
@@ -617,6 +621,7 @@ main {
 .shop_bottom2{
     height: 55px;
     border-bottom: 1px solid #dae1e6;
+    margin: 0 10px 0 10px;
 }
 .shop_bottom2 i{
     font-size: 11px;
@@ -670,7 +675,6 @@ main {
 }
 .more_shop_li1 {
     padding-left: 0;
-    margin-right: 0;
     margin-left: 10px;
     height: 180px;
     width: 350px;
@@ -705,20 +709,22 @@ main {
     margin-bottom: 23px;
 }
 #more_shop_last {
-    border-bottom: 1px solid #dae1e6;
+    margin-bottom: 0px;
+}
+.last_shop {
+    border-top: 1px solid #dae1e6;
+    margin: 0 10px 0 10px;
 }
 .last_shop_title {
     height: 35px;
-    margin-top: 25px;
-    margin-left: 10px;
+    margin-top: 17px;
+    margin-left: 0px;
 }
 .last_shop_title a > img{
     height: 23px;
     float: left;
 }
-#lastshop_li2 {
-    margin-right: 10px;
-}
+
 .last_shop_title i {
     float: right;
     border: 1px solid #dae1e6;
@@ -730,12 +736,12 @@ main {
     margin-bottom: 15px;
 }
 .last_shop_title a > p{
-    font-size: 14px;
+    font-size: 13px;
     margin-top: 3.5px;
     margin-left: 5px;
 }
 #lastshop_p1 {
-    margin: 5px 0 0 87px;
+    margin: 5px 0 0 65px;
     font-size: 13px;
 }
 #lastshop_p2 {
@@ -747,7 +753,7 @@ main {
     height: 840px;
     width: 380px;
     margin-top: 2px;
-    padding-left: 10px;
+    padding-left: 0;
 }
 .lastshop_ul li {
     height: 80px;
