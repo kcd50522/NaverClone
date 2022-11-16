@@ -488,6 +488,7 @@ main {
 }
 .group_shop_f {
     border: 1px solid #dae1e6;
+    height: 1830px;
 }
 .group_shop_title {
     height: 25px;
@@ -671,7 +672,7 @@ main {
     padding-left: 0;
     margin-right: 0;
     margin-left: 10px;
-    height: 330px;
+    height: 180px;
     width: 350px;
 }
 .more_shop_li1 a > img {
@@ -703,7 +704,66 @@ main {
     margin-left: 5px;
     margin-bottom: 23px;
 }
-.more_shop_title_2
+#more_shop_last {
+    border-bottom: 1px solid #dae1e6;
+}
+.last_shop_title {
+    height: 35px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.last_shop_title a > img{
+    height: 23px;
+    float: left;
+}
+#lastshop_li2 {
+    margin-right: 10px;
+}
+.last_shop_title i {
+    float: right;
+    border: 1px solid #dae1e6;
+    width: 30px;
+    padding-left: 9px;
+    padding-top: 5px;
+    font-size: 11px;
+    height: 25px;
+    margin-bottom: 15px;
+}
+.last_shop_title a > p{
+    font-size: 14px;
+    margin-top: 3.5px;
+    margin-left: 5px;
+}
+#lastshop_p1 {
+    margin: 5px 0 0 87px;
+    font-size: 13px;
+}
+#lastshop_p2 {
+    font-size: 13px;
+    margin: 5px 0 0 5px;
+    color: gray;
+}
+.lastshop_ul {
+    height: 840px;
+    width: 380px;
+    margin-top: 2px;
+    padding-left: 10px;
+}
+.lastshop_ul li {
+    height: 80px;
+    font-size: 13px;
+}
+.lastshop_ul img {
+    height: 70px;
+    width: 160px;
+    float: left;
+}
+.lastshop_ul p {
+    margin-left: 10px;
+    height: 30px;
+    line-height: 17px;
+    margin-bottom:0;
+}
 /*footer*/
 .f1 {
     border-top:  1px solid #dae1e6;
